@@ -6,28 +6,42 @@
     </title>
 
     <style>
+        .debug {
+            border: 2px solid red;
+        }
+
         .header {
             width: 100%;
             text-align: center;
+        }
+
+        #footer {
+            font-size: 8px;
+        }
+
+        footer {
+            font-size: 8px;
         }
     </style>
 </head>
 
 <body>
-    <div class="header">
-        <h1>
-            Fall 2019 Front End Development Class
-        </h1>
-        <hr>
+    <div class="wrapper">
+        <div class="header">
+            <h1>
+                Fall 2019 Front End Development Class
+            </h1>
+            <hr>
+        </div>
+
+        <div class="header" style="width: 100%">
+            <h2>
+                Announcements:
+            </h2>
+        </div>
     </div>
 
-    <div>
-        <h2>
-            Announcements:
-        </h2>
-    </div>
-
-    <div>
+    <div class="debug">
         <h2>
             Members:
         </h2>
@@ -83,9 +97,9 @@
 
     </div>
 
-    <div>
+    <footer>
         Copyright 2019 - Ben Walcutt
-    </div>
+    </footer>
 </body>
 
 </html>
