@@ -1,0 +1,16 @@
+.debug {
+    border: 2px solid red !important;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+#footer {
+    font-size: 8px;
+}
+
+footer {
+    font-size: 8px;
+}
