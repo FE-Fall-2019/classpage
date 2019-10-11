@@ -1,0 +1,46 @@
+
+/** Practicing CSS file **/
+
+.header {
+    width: 100% 
+    text-align: center;
+    color:lightslategray;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.card {
+    width: 200px;
+    height: 300px;
+
+    box-shadow: 0 4px 8px 0 reba  (0,0,0,0.2);
+    transition:0.3s;
+}
+.card-hover {
+    box-shadow: 0 8px 16px 0 rgba (0,0,0,0.2);
+}
+
+.card-header {
+    width: 150px;
+    height:150px;
+    padding: 25px;
+}
+
+.card-name {
+    margin-left: 25px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f6b93b;
+}
+
+.card-slack {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: 14px
+    color: #a4b0be;
+}
+
