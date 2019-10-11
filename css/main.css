@@ -7,10 +7,66 @@
     text-align: center;
 }
 
-#footer {
-    font-size: 8px;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-header {
+    width: 150px;
+    height: 150px;
+
+    padding: 25px;
+    border-bottom: 2px solid darkgray;
+}
+
+.card-name {
+    margin-left: 25px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-slack {
+    text-decoration: underline;
+    
+}
+
+.orange-color {
+    color: #d35400
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
 }
 
 footer {
     font-size: 8px;
+}
+
+div p {
+    color: green;
 }
