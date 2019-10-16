@@ -1,3 +1,39 @@
 <html>
-    <!-- your stuff here -->
+<style>
+    body{margin:0; }
+header{text-align:center;height:100px;justify-content:center;}
+.links{justify-content:center}
+.flex{display:flex}
+.row-container{flex-direction: row}
+.col-container{flex-direction: column}
+.content{padding:20px;}
+.related-links .li{list-style-type: circle}
+footer{position: fixed;justify-content:center; bottom: 0;left:0;height:100px;width:100%;text-align:center}
+    </style>
+    <body>
+<header class="flex"><h1>Learning HTML</h1>/header>
+    <div class="flex row-container links">
+        <a href="home.html">home</a>
+    </div>
+    <div class="flex row-container content">
+<div class="flex col-container articles">
+    <h3>ARTICLE 1</h3><p>lorem epsum</p>
+    <h3>ARTICLE 2</h3><p>lorem epsum</p>
+</div>
+<div class="flex col-container related-links">
+<div class="related"><h3><u>Related links:</u></h3>
+<ul>
+<li><a href="index.html" >lorem ipsum</a></li></ul>
+<li><a href="index.html" >dolor sit</a></li>
+</div>
+<div class="quotes"><h3><u>Quotes</u></h3>
+<ul><li>The absence of alternatives clears the mind marvelously</li></ul>
+</div>
+</div>
+</div>
+<footer class="flex col-container"><span>Copyright@2019</span>
+<a href="http://engineeringthesoftware.wordpress.com">blog</a>
+</footer>
+
+    </body>
 </html>
